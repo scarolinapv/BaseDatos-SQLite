@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LADM_U3_PRACTICA1_BaseDatosSQLite</string>
+    <string-array name="opciones">
+        <item>Mostrar todos los conductores que tengan licencia vencida</item>
+        <item>Los conductor que NO TENGAN asignados vehículos</item>
+        <item>Los vehículos que tengan N cantidad de años de uso</item>
+        <item>Cual vehículo tiene asignado cual Conductor y al revés</item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".tblVehiculo">
+
+    <Button
+        android:id="@+id/Regreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regreso" />
+
+    <EditText
+        android:id="@+id/CampoPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU PLACA" />
+    <EditText
+        android:id="@+id/CampoMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU MARCA" />
+    <EditText
+        android:id="@+id/CampoModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU MODELO" />
+    <EditText
+        android:id="@+id/CampoAño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU AÑO" />
+    <EditText
+        android:id="@+id/CampoIDConductor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA EL ID CONDUCTOR" />
+
+    <Button
+        android:id="@+id/btnInsertarVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaR"/>
+</LinearLayout>

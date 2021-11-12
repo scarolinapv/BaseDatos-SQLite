@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".tblConductor">
+    <Button
+        android:id="@+id/Regreso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regreso" />
+
+
+    <EditText
+        android:id="@+id/CampoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU NOMBRE COMPLETO" />
+
+    <EditText
+        android:id="@+id/CampoDomicilio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU DOMICILIO"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/CampoNoLicenciaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU NUEMRO DE LICENCIA"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/CampoVence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ESCRIBA SU VENCIMIENTO"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnInsertarConductor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listaC"/>
+
+
+</LinearLayout>
